@@ -1,7 +1,7 @@
 
 const { XMLParser } = require("fast-xml-parser");
 
-const BGG_API_TOKEN = "9b63f96a-de64-4005-bd91-7f24af7a4fa6";
+const BGG_API_TOKEN = ;
 const BGG_BASE_URL = "https://boardgamegeek.com/xmlapi2";
 
 const parser = new XMLParser({
@@ -70,3 +70,4 @@ async function run() {
 }
 
 run();
+
